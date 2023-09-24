@@ -693,7 +693,7 @@ button a {
     justify-content: center;
     align-items: center;
     width: 130px;
-    height: 300px;
+    height: 260px;
     border-radius: 10px;
     background: linear-gradient(
       180deg,
@@ -960,7 +960,7 @@ button a {
   /* product section */
 
   .product-title h2 {
-    font-size: 30px;
+    font-size: 23px;
   }
 
   .product-title p {
