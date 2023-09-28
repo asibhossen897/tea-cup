@@ -80,6 +80,7 @@ button a {
 .hero-container {
   display: flex;
   margin: 50px auto;
+  margin-top: 130px;
   width: 1150px;
 }
 
@@ -490,6 +491,7 @@ button a {
   .hero-container {
     display: flex;
     margin: 50px auto;
+    margin-top: 80px;
     width: 850px;
   }
 
