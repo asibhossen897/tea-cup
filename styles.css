@@ -168,7 +168,7 @@ button a {
 
 /* product section */
 #products {
-  margin-top: 50px;
+  margin-top: 130px;
 }
 
 .product-title h2 {
@@ -228,6 +228,106 @@ button a {
   width: 208px;
 }
 
+/* presentation */
+.presentation-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 130px 80px 80px 50px;
+}
+
+.img-presentation {
+  margin-right: 0;
+  width: 800px;
+  /* height: 400px; */
+  display: grid;
+  grid-template-columns: 330px 330px;
+  grid-template-rows: 250px 250px;
+  justify-content: center;
+  gap: 20px 10px;
+}
+
+.empty {
+  width: 300px;
+  height: 136px;
+  border-radius: 10px;
+  opacity: 0.1;
+  background: var(--Linear, linear-gradient(270deg, #f00 0%, #ff8938 100%));
+}
+
+.empty2 {
+  margin-top: 100px;
+  width: 300px;
+  height: 136px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #d9d9d9 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.img-presentation .img-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 300px;
+  height: 355.279px;
+  border-radius: 10px;
+  background: rgba(87, 118, 57, 0.1);
+}
+
+.img-presentation .img-2 {
+  margin-top: -120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 355.279px;
+  border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(230, 166, 35, 0.1);
+}
+
+.text-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  height: 520px;
+}
+
+.text-presentation h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  width: 413px;
+  color: #1c1c1c;
+  font-family: Manrope;
+  font-size: 45px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.text-presentation p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  width: 582px;
+  color: #777;
+  text-align: justify;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+
+.text-presentation h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #1c1c1c;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: normal;
+}
 /* responsive */
 
 @media only screen and (max-width: 1024px) {
